@@ -18,7 +18,9 @@ class User extends Authenticatable
      * @var array<int, string>
      */
     protected $fillable = [
-        'name',
+        'nom',
+        'prenom',
+        'role',
         'email',
         'password',
     ];
@@ -41,4 +43,13 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    
+     /**
+     * Get the tasks assigned to the user.
+     */
+    public function taches()
+    {
+        return $this->hasMany(Tache::class, 'assigne_a', 'email');
+    }
 }
