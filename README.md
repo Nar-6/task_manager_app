@@ -94,7 +94,7 @@ Commandes à taper après le `git clone` :
     php artisan db:seed --class=UserSeeder
     ```
 
-10. Exécutez le seeder pour créer des tâches de test (assurez-vous d'avoir créé des utilisateurs avant) :
+10. Exécutez le seeder pour créer des tâches de test (assurez-vous d'avoir exécuteé la commande 9 avant) :
     ```sh
     php artisan db:seed --class=TacheSeeder
     ```
