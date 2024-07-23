@@ -1,0 +1,430 @@
+html{
+    height: 99vh;
+    width: 99vw;
+}
+*{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+ul{
+    padding-left: 0 !important;
+    margin-bottom: 0 !important;
+}
+li{
+    list-style: none;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+li a{
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    padding: 10px;
+}
+
+body {
+    background: url('../image/admin_back.svg') ;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.navigation {
+    background: #152031e6;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border: 0px solid rgba(21,32,49,0.25);
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: fixed;
+    top: 40vh;
+    left: 3vw;
+    text-align: center;
+}
+
+.active-link {
+    background: #f8f9ff;
+    color: #152031e6;
+    border-radius: 15px;
+}
+
+main{
+    height: 100vh;
+    width:60vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.taches {
+    width: 100%;
+    background-color: #152031e6;
+    color: white;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns of equal width */
+    gap: 20px; /* Space between grid items */
+}
+.home h1 {
+    text-align: center;
+    color: rgba(21,32,49,0.5);
+    margin-top: 20px ;
+}
+
+.tache-header, .taches-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.taches-header a {
+    text-decoration: none;
+    color: #152031e6;
+}
+.tache {
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.tache h4,.assigne{
+    margin-top: 15px;
+    text-align: center;
+}
+.tache .description{
+    text-align: justify;
+}
+.users{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Two columns of equal width */
+    gap: 20px; /* Space between grid items */
+}
+
+.users-container{
+    margin-top: 40px;
+}
+.photo-profil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.photo-profil img {
+    border-radius: 50%;
+}
+.home{
+    padding-bottom: 40px;
+}
+.navigation-right{
+    position: fixed;
+    top: 15vh;
+    right: 3vw;
+}
+.navigation-right-2{
+  position: fixed;
+  top: 30vh;
+  right: 3vw;
+  background: #152031e6;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border: 0px solid rgba(21,32,49,0.25);
+  padding: 20px;
+  border-radius: 15px;
+}
+.navigation-right-2 div{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 15px;
+ text-align: center;
+  color: white;
+  cursor: pointer;
+}
+.navigation-right-3{
+  position: fixed;
+  top: 15vh;
+  right: 3vw;
+  background: #152031e6;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border: 0px solid rgba(21,32,49,0.25);
+  padding: 20px;
+  border-radius: 15px;
+}
+.navigation-right-3 div{
+  padding: 5px;
+ text-align: center;
+  color: white;
+  cursor: pointer;
+}
+ul li a i{
+    font-size: 1.2em;
+}
+.active{
+  background: #f8f9ff;
+    color: #070b11e6 !important;
+    border-radius: 15px;
+}
+.tache-one{
+  display: flex;
+  justify-content: space-between;
+  background-color: #152031e6;
+  border-radius: 15px;
+  padding: 20px;
+  color: white;
+  margin-top: 30px;
+}
+.left, .right{
+  width: 35%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.right-one{
+  width: 35%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+i{
+  cursor: pointer;
+}
+.right-ext {
+  width: 7%;
+  padding-right: 5px;
+  padding-left: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.right-ext div i{
+  color: whitesmoke;
+
+}
+.middle{
+  padding: 20px;
+  text-align: justify;
+}
+.middle h4 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.btn-blue {
+  background-color: #152031e6;
+  color: white;
+  padding: 15px;
+  border-radius: 15px;
+}
+.dropdown-menu li{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.high{
+  background-color: #070b11e6 !important;
+  color: whitesmoke !important;
+  border: #152031e6 !important;
+}
+.medium{
+  background-color: #2d476fe6 !important;
+  color: whitesmoke !important;
+  border: #152031e6 !important;
+}
+.low{
+  background-color: #7693bfe6 !important;
+  color: whitesmoke !important;
+  border: #152031e6 !important;
+}
+.vilain{
+  background-color: transparent !important;
+  color: whitesmoke !important;
+  border: 0;
+  padding: 0;
+}
+
+.user-one{
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-around;
+}
+.user-one-profile{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.user-one-taches{
+  width: 60%;
+  background-color: #152031e6;
+  color: whitesmoke;
+  border-radius: 10px;
+  padding: 12px;
+  padding-bottom: 28px;
+}
+.trait{
+  border-top: solid 0.5px whitesmoke;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+.tache-ligne{
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+.tache-ligne .titre{
+  width: 50%;
+}
+.tache-ligne .priorite, .tache-ligne .statut{
+  text-align: center;
+  width: 20%;
+}
+.profil-one-container{
+  display: flex;
+  justify-content: space-around;
+}
+.profil-one-photo{
+  padding: 20px;
+
+}
+.profil-one-photo img{
+  border-radius: 32% 68% 65% 35% / 20% 60% 40% 80%;
+  width: 300px;
+  height: 300px;
+}
+.profil-one-nom{
+  padding: 20px;
+  padding-left: 0px !important;
+}
+.profil-one-nom h1{
+  font-size: 5em;
+  font-weight: 200;
+}
+.profil-one-nom h3{
+  font-weight: 200;
+  font-size: 4em;
+}
+.btn-blue{
+  background-color: #070b11e6 !important;
+  color: whitesmoke !important;
+}
+.pas-de-tache{
+  text-align: center;
+  margin-top: 50px;
+}

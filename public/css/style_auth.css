@@ -1,0 +1,219 @@
+html{
+    height: 100vh;
+    width: 100vw;
+}
+
+@keyframes rotate {
+    100%{
+      background-position: 15% 50%;
+    }   
+}
+
+body {
+    background: url('../image/auth_back.svg') ;
+    height: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: rotate 6s infinite alternate linear;
+
+}
+
+.form-container {
+    background: rgba(95, 95, 95, 0.4);
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(0,0,0,0.2);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    width: 500px;
+    border: 0;
+    padding: 30px;
+
+}
+
+.form-container > h2 {
+    color: rgb(255 255 255 / 98% );
+    margin: 0 0 12px;
+    font-weight: 400;
+    font-size: 36px;
+  }
+  
+  .form-container > h3 {
+    text-align: center;
+    color: rgb(255 255 255 / 98% );
+    font-family: 'Burma', sans-serif;
+    margin: 0 0 48px;
+    font-weight: 400;
+    font-size: 26px;
+  }
+  
+  .login-form  {
+    width: 100%;
+    margin: 0;
+    display: grid;
+    gap: 16px;
+  }
+  
+  .login-form > :is(input, button) {
+    width: 100%;
+    height: 56px;
+    border-radius: 6px;
+    border: 0;
+  }
+  
+  .login-form > input {
+    color: rgb(255 255 255 / 96%);
+    background:rgb(255 255 255 / 8%);
+    font-family: inherit;
+    font-size: 16px;
+    padding: 0 16px;
+  }
+  
+  .login-form > input::placeholder {
+    color: rgb(255 255 255 / 38%);
+  }
+  
+  .login-div  {
+    width: 100%;
+    margin: 0;
+    display: grid;
+    gap: 16px;
+  }
+  
+  .login-div > :is(input, button, select) {
+    width: 100%;
+    height: 56px;
+    border-radius: 6px;
+    border: 0;
+  }
+  
+  .login-div > input, .login-div > select {
+    color: rgb(255 255 255 / 96%);
+    background:rgb(255 255 255 / 8%);
+    font-family: inherit;
+    font-size: 16px;
+    padding: 0 16px;
+  }
+  
+  .login-div > input::placeholder{
+    color: rgb(255 255 255 / 38%);
+  }
+  
+  .login-div-block  {
+    width: 90%;
+    margin: 0;
+    margin-left: auto;
+    display: grid;
+    gap: 16px;
+    align-items: end;
+  }
+  
+  .login-div-block > :is(input, button, select) {
+    width: 100%;
+    height: 56px;
+    border-radius: 6px;
+    border: 0;
+  }
+  
+  .login-div-block > input, .login-div-block > select {
+    color: rgb(255 255 255 / 96%);
+    background:rgb(255 255 255 / 8%);
+    font-family: inherit;
+    font-size: 16px;
+    padding: 0 16px;
+  }
+  
+  .login-div-block > input::placeholder{
+    color: rgb(255 255 255 / 38%);
+  }
+  
+  .login-content  {
+    width: 100%;
+    margin: 0;
+    margin-left: auto;
+    display: grid;
+    gap: 16px;
+    align-items: end;
+  }
+  
+  .login-content > :is(input, button, select) {
+    width: 100%;
+    height: 56px;
+    border-radius: 6px;
+    border: 0;
+  }
+  
+  .login-content > input, .login-content > select {
+    color: rgb(255 255 255 / 96%);
+    background:rgb(255 255 255 / 8%);
+    font-family: inherit;
+    font-size: 16px;
+    padding: 0 16px;
+  }
+  
+  .login-content > input::placeholder{
+    color: rgb(255 255 255 / 38%);
+  }
+  
+  
+  option{
+    color: black;
+  }
+  
+  
+  .login-form > button {
+    cursor: pointer;
+    width: 100%;
+    height: 56px;
+    padding: 0 16px;
+    background: #152031;
+    color: #f9f9f9;
+    border: 0;
+    font-family: inherit;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    transition: all 0.375s;
+  }
+  
+  .login-form > a {
+    color: rgb(255 255 255 / 98% );
+    font-size: 16px;
+    text-align: left;
+    text-decoration: none;
+    margin-bottom: 30px;
+  }
+  
+  .login-div{
+    display: flex;
+  }
+  @media (width >= 448px ) {
+    .login-card {
+      margin: 0;
+      width: 70%;
+      min-width: 400px;
+    }   
+  }
+  
+  @media (width >= 628px ) {
+    .login-card {
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      padding: 0 44px;
+      width: 50%;
+      max-width: 500px;
+      min-width: auto;
+      display: flex;
+      border-radius: 0;
+      flex-direction: column;
+      justify-content: center;
+    }   
+  }
+  
