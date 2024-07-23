@@ -9,10 +9,10 @@ Cette application web de gestion de tâches permet aux utilisateurs de recevoir 
 ### Admin
 
 - Se connecter
-- Créer des tâches
+- Créer des tâches ( Un mail est envoyé a l'utilisateur auquel la tache est assignée )
 - Modifier des tâches
 - Supprimer des tâches
-- Créer un compte utilisateur
+- Créer un compte utilisateur ( Un email est envoyé au nouvel utilisateur )
 - Changer la priorité d'une tâche : Sur la page des tâches, cliquez sur le bouton de priorité d'une tâche pour pouvoir la modifier.
 - Promouvoir un utilisateur (d'un compte simple à un compte admin)
 - Changer le statut d'une tâche qui lui est assignée : Le statut d'une tâche ne peut être modifié que par l'utilisateur à qui cette tâche a été assignée, sur sa page profil.
